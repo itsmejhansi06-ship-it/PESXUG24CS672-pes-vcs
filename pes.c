@@ -52,6 +52,7 @@ void cmd_add(int argc, char *argv[]) {
             fprintf(stderr, "error: failed to add '%s'\n", argv[i]);
         }
     }
+index_save(&index);
 }
 
 // Usage: pes status
